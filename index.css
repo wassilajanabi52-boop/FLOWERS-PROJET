@@ -1,0 +1,141 @@
+* {
+	box-sizing:border-box;
+	margin:0px;
+	padding:0px;
+}
+.Flower{
+	position:fixed;
+	margin-left: 10px;
+	font-style:italic;
+	font-weight:bold;
+	background:#f9f0f1;
+	border-radius:20px;
+	padding:2px;
+	font-size:25px;
+	top:10px;
+	left:0px;
+	text-decoration: underline;
+}
+.img{
+	top:0px;
+	position:fixed;
+	right:290px;
+	
+	
+}
+.recherche{
+	position:fixed;
+	top:12px;
+	background:white;
+	width:270px;
+	height:28px;
+	right:10px;
+	
+	border-radius:25px;
+	
+}
+
+.home{
+	position:fixed;
+	font-style:italic;
+	font-weight:bold;
+	font-size:25px;
+	background:#f9f0f1;
+	border-radius:20px;
+	padding:2px;
+	left:300px;
+	top:10px;
+	
+	text-decoration: underline;
+	
+}
+.about{
+	position:fixed;
+	font-style:italic;
+	font-weight:bold;
+	background:#f9f0f1;
+	border-radius:20px;
+	padding:2px;
+	font-size:25px;
+	left:420px;
+	top:10px;
+	
+	text-decoration: underline;
+
+}
+.contact{
+	position:fixed;
+	background:#f9f0f1;
+	font-weight:bold;
+	border-radius:20px;
+	padding:2px;
+	font-style:italic;
+	font-size:25px;
+	left:550px;
+	top:10px;
+	
+	text-decoration: underline;
+
+}
+.border{
+	position:fixed;
+	background:white;
+	border-radius:10px;
+	top:0px;
+	width:100%;
+	height:50px;
+	border: 2px solid;
+}
+section{
+	background:transparent;
+	border: 7px solid #eee;
+	width:540px;
+	height:390px;
+	border-radius:25px;
+	padding:30px;
+	backdrop-filter:blur(10px);
+	position:absolute;
+	left: 39px;
+	top:130px;
+}
+input::placeholder{
+	color:black;
+}
+h2{
+	font-size:35px;
+	position:relative;
+	left:0px;
+	border:2px solid;
+	background-color:transparent;
+	box-shadow:4px 8px ;
+	backdrop-filter:blur(30px);
+}	
+body{
+	background:url(image.jpg);
+	background-position:center;
+	background-size:cover;
+	height:90vh;
+}
+section h1{
+	text-align:center;
+}
+.input-box{
+	width:100%;
+	position:relative;
+	margin-bottom:25px;
+	
+}
+.input-box input{
+	width:100%;
+	padding:15px;
+	border-radius:25px;
+	backdrop-filter:blur(100px);
+	background-color:transparent;
+}
+.se-connecter{
+	width:100%;
+	padding:15px;
+	border-radius:25px;
+	background-color:transparent;
+	backdrop-filter:blur(100px);
+}
